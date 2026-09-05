@@ -1,0 +1,16 @@
+All three tests pass now.
+
+The bug: `divide(a, b)` did a raw `a / b`, so `divide(10, 0)` raised `ZeroDivisionError` instead of returning `None`, which is what `test_divide_by_zero` expects.
+
+Fix applied in /tmp/whipper_evals/eval-repair-buggy-calc/without_skill/buggy_calc.py:
+
+def divide(a, b):
+    if b == 0:
+        return None
+    return a / b
+
+Verified with pytest:
+test_buggy_calc.py::test_add PASSED
+test_buggy_calc.py::test_divide PASSED
+test_buggy_calc.py::test_divide_by_zero PASSED
+3 passed in 0.01s

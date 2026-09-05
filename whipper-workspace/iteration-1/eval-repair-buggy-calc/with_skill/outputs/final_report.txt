@@ -1,0 +1,5 @@
+DONE
+
+result: Fixed divide() in buggy_calc.py to return None on division by zero instead of raising ZeroDivisionError.
+tests: 3/3 passed.
+changes: buggy_calc.py

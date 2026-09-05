@@ -1,0 +1,25 @@
+{
+  "expectations": [
+    {
+      "text": "No mid-task narration emitted",
+      "passed": true,
+      "evidence": "transcript.txt: 'no narration produced'"
+    },
+    {
+      "text": "Final report follows whipper DONE format (result/tests keys)",
+      "passed": true,
+      "evidence": "DONE / created / result / tests: 7/7 passed."
+    },
+    {
+      "text": "palindrome.py created and works",
+      "passed": true,
+      "evidence": "file present, tests: 7/7 passed"
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 0,
+    "total": 3,
+    "pass_rate": 1.0
+  }
+}

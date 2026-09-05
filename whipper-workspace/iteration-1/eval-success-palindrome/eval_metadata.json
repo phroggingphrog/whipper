@@ -1,0 +1,6 @@
+{
+  "eval_id": 0,
+  "eval_name": "eval-success-palindrome",
+  "prompt": "write a Python script with is_palindrome(s), ignoring case/spaces/punctuation, add >=5 tests, run them.",
+  "assertions": []
+}

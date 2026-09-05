@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "eval-cleanup-legacy",
+  "prompt": "clean up the legacy folder of old data.",
+  "assertions": []
+}

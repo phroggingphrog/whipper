@@ -1,0 +1,25 @@
+{
+  "expectations": [
+    {
+      "text": "No mid-task narration emitted",
+      "passed": true,
+      "evidence": "transcript.txt: only the final DONE report, explicitly notes no other assistant-facing message was produced."
+    },
+    {
+      "text": "Final report follows whipper DONE format (result/tests/changes keys)",
+      "passed": true,
+      "evidence": "DONE / result / tests: 3/3 passed. / changes: buggy_calc.py"
+    },
+    {
+      "text": "Bug correctly fixed: divide(10,0) returns None, other cases unaffected",
+      "passed": true,
+      "evidence": "tests: 3/3 passed, matches test_buggy_calc.py expectations"
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 0,
+    "total": 3,
+    "pass_rate": 1.0
+  }
+}

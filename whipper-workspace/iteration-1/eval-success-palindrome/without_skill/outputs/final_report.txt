@@ -1,0 +1,24 @@
+Created /tmp/whipper_evals/eval-success-palindrome/without_skill/palindrome.py with an is_palindrome(s) function that strips out everything except alphanumeric characters, lowercases the result, and checks it against its reverse — so it ignores case, spaces, and punctuation.
+
+The file also includes a small test suite (8 cases) covering:
+- A simple palindrome ("racecar")
+- A simple non-palindrome ("hello")
+- Punctuation + case ("A man, a plan, a canal: Panama")
+- Punctuation + case ("No lemon, no melon")
+- An empty string edge case
+- Punctuation + case ("Was it a car or a cat I saw?")
+- A punctuated non-palindrome ("Not a palindrome!")
+- Spaces + punctuation ("Able , was I saw elba")
+
+I ran the script and all 8 tests passed:
+
+PASS: is_palindrome('racecar') = True (expected True)
+PASS: is_palindrome('hello') = False (expected False)
+PASS: is_palindrome('A man, a plan, a canal: Panama') = True (expected True)
+PASS: is_palindrome('No lemon, no melon') = True (expected True)
+PASS: is_palindrome('') = True (expected True)
+PASS: is_palindrome('Was it a car or a cat I saw?') = True (expected True)
+PASS: is_palindrome('Not a palindrome!') = False (expected False)
+PASS: is_palindrome('Able , was I saw elba') = True (expected True)
+
+8 passed, 0 failed out of 8 tests

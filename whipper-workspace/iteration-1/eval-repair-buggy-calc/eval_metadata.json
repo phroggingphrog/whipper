@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "eval-repair-buggy-calc",
+  "prompt": "fix buggy_calc.py so the failing tests pass.",
+  "assertions": []
+}

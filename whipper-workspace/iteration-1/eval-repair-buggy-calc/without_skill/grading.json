@@ -1,0 +1,25 @@
+{
+  "expectations": [
+    {
+      "text": "No mid-task narration emitted",
+      "passed": false,
+      "evidence": "Explains the bug, shows the fix, walks through pytest output in prose."
+    },
+    {
+      "text": "Final report follows whipper DONE format (result/tests/changes keys)",
+      "passed": false,
+      "evidence": "N/A - not using whipper; plain narrative report."
+    },
+    {
+      "text": "Bug correctly fixed: divide(10,0) returns None, other cases unaffected",
+      "passed": true,
+      "evidence": "3 passed in 0.01s, fix shown matches spec"
+    }
+  ],
+  "summary": {
+    "passed": 1,
+    "failed": 2,
+    "total": 3,
+    "pass_rate": 0.3333
+  }
+}

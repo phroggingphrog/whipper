@@ -1,0 +1,4 @@
+DONE
+
+result: Removed legacy folder and its 3 files (config_backup.json, notes.txt, old_report.csv — all trivial/stale data, no references elsewhere in the project).
+changes: deleted /tmp/whipper_evals/eval-cleanup-legacy/with_skill/legacy/

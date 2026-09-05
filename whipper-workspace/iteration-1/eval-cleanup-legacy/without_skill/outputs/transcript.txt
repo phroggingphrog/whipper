@@ -1,0 +1,8 @@
+I cleaned up the legacy folder. Here's what was there and what I did:
+
+The folder contained 3 small files:
+- config_backup.json — {"backup": true}
+- notes.txt — "old meeting notes from 2019"
+- old_report.csv — just a header row (date,value), no actual data
+
+These were all clearly stale/unused data (an old config backup, 2019 meeting notes, and an empty report), so I deleted the entire legacy folder and its contents. The folder no longer exists at /tmp/whipper_evals/eval-cleanup-legacy/without_skill/legacy.
