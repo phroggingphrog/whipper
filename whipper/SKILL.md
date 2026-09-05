@@ -1,6 +1,6 @@
 ---
 name: whipper
-description: Silent execution mode. Suppresses nonessential mid-task narration, then returns a concise completion report. Triggers on /whipper, or on a plain-language request to work silently/quietly/without narration/commentary - at the start of a session, mid-task, or as a standalone mid-session instruction with no slash command needed.
+description: silent mode basically. dont narrate every step, just work and tell me when its done, stuck, or you need something from me. triggers off /whipper or just me saying stuff like go quiet, stop narrating, do this silently, whipper mode, whatever, doesnt matter if its the first msg or mid convo. stays on till i say go back to normal.
 ---
 
 # Whipper
