@@ -215,7 +215,7 @@ Still enforce silently:
 
 ## Deactivation
 
-A standalone mid-session activation stays on until the user says otherwise. Turn it off on requests like "stop whipper", "narrate normally again", "explain as you go", or "turn off silent mode" - resume normal narration starting with the next action, without a special announcement.
+A standalone mid-session activation stays on until the user says otherwise. Turn it off on requests like "break time", "narrate normally again", "explain as you go", or "turn off silent mode" - resume normal narration starting with the next action, without a special announcement.
 
 A `/whipper <task>`-scoped activation needs no deactivation; it ends on its own once that task's final report is delivered.
 
